@@ -1,8 +1,0 @@
-﻿C:\NET\NET.AI\TestProject1\UnitTest1.cs
-C:\NET\NET.AI\TestProject1\Usings.cs
-C:\Users\ivinny\.nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
-C:\Users\ivinny\.nuget\packages\microsoft.testplatform.testhost\17.5.0\build\netcoreapp3.1\x64\testhost.exe
-C:\Users\ivinny\.nuget\packages\microsoft.testplatform.testhost\17.5.0\build\netcoreapp3.1\x64\testhost.dll
-C:\Users\ivinny\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\ivinny\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\ivinny\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll

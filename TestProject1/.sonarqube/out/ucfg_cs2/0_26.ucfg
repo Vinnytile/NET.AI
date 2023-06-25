@@ -1,0 +1,26 @@
+
+hStudentProject.StudentConverter.ConvertStudents(System.Collections.Generic.List<StudentProject.Student>);
+1C:\NET\NET.AI\UnitTestProject\StudentConverter.cs (("0*É
+0 $(›
+˜
+ $(/
+%0)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*20
+.
+students"System.Collections.Generic.List<T>*
+""ã
+à
+ $((
+%1"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*31
+/
+%0)System.Collections.Generic.IEnumerable<T>"6
+ $(*
+(
+%1"System.Collections.Generic.List<T>*.
+1% %("
+% %(
+implicit return::
+) (?.
+students"System.Collections.Generic.List<T>B#!
+StudentProject.StudentConverter

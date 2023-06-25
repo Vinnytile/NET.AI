@@ -12,18 +12,141 @@
       },
       "results": [
         {
-          "ruleId": "S2699",
+          "ruleId": "CS8618",
           "level": "warning",
-          "message": "Add at least one assertion to this test case.",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/NET/NET.AI/TestProject1/UnitTest1.cs",
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/PlayerAnalyzer.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/PlayerAnalyzer.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 19,
+                  "endLine": 3,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Skills' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/PlayerAnalyzer.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/PlayerAnalyzer.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 22,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/StudentConverter.cs",
                 "region": {
                   "startLine": 4,
-                  "startColumn": 17,
+                  "startColumn": 19,
                   "endLine": 4,
-                  "endColumn": 22
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/StudentConverter.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 19,
+                  "endLine": 4,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ConvertStudents' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/StudentConverter.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 26,
+                  "endLine": 14,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'CalculateScore' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/NET/NET.AI/UnitTestProject/PlayerAnalyzer.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 19,
+                  "endLine": 10,
+                  "endColumn": 33
                 }
               }
             }
@@ -34,19 +157,33 @@
         }
       ],
       "rules": {
-        "S2699": {
-          "id": "S2699",
-          "shortDescription": "Tests should include assertions",
-          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
           "properties": {
-            "category": "Blocker Code Smell",
+            "category": "Performance",
             "isEnabledByDefault": true,
             "tags": [
-              "C#",
-              "TestSourceScope",
-              "SonarWay"
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
             ]
           }
         }

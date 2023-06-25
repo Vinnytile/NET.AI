@@ -1,0 +1,17 @@
+£
+StudentProject.Studentobject-
+	Student() StudentProject.Student.Student()+
+Name.getStudentProject.Student.Name.get+
+Name.setStudentProject.Student.Name.set)
+Age.getStudentProject.Student.Age.get)
+Age.setStudentProject.Student.Age.set-
+	Grade.get StudentProject.Student.Grade.get-
+	Grade.set StudentProject.Student.Grade.set9
+Exceptional.get&StudentProject.Student.Exceptional.get9
+Exceptional.set&StudentProject.Student.Exceptional.set5
+HonorRoll.get$StudentProject.Student.HonorRoll.get5
+HonorRoll.set$StudentProject.Student.HonorRoll.set/
+
+Passed.get!StudentProject.Student.Passed.get/
+
+Passed.set!StudentProject.Student.Passed.set

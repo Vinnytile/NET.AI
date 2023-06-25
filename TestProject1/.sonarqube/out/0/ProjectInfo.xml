@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>TestProject1</ProjectName>
+  <ProjectName>StudentProject</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
-  <ProjectType>Test</ProjectType>
-  <ProjectGuid>11d7f71d-e272-4858-9429-d9f97f196994</ProjectGuid>
-  <FullPath>C:\NET\NET.AI\TestProject1\TestProject1.csproj</FullPath>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>7c02b3fb-357e-4af1-8391-612d65c94979</ProjectGuid>
+  <FullPath>C:\NET\NET.AI\UnitTestProject\StudentProject.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\NET\NET.AI\TestProject1\.sonarqube\conf\0\FilesToAnalyze.txt" />

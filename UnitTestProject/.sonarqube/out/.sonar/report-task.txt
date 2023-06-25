@@ -1,7 +1,0 @@
-organization=vinnytile
-projectKey=Vinnytile_NET.AI
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.42876
-dashboardUrl=https://sonarcloud.io/dashboard?id=Vinnytile_NET.AI
-ceTaskId=AYjyHDTHPoorKPI0VM2O
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYjyHDTHPoorKPI0VM2O

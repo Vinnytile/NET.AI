@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestProject\StudentProject.csproj" />
+  </ItemGroup>
+
 </Project>
